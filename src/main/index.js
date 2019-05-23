@@ -22,7 +22,10 @@ function createWindow () {
   mainWindow = new BrowserWindow({
     height: 563,
     useContentSize: true,
+    frame: true,
+    transparent: false,
     width: 1000,
+    autoHideMenuBar: true,
     webPreferences: {
       nodeIntegration: true,
       nodeIntegrationInWorker: false,
