@@ -367,10 +367,10 @@ import { parseTime } from '@/utils'
 import Pagination from '@/components/Pagination' // secondary package based on el-pagination
 
 const calendarTypeOptions = [
-  { key: 'CN', display_name: 'China' },
-  { key: 'US', display_name: 'USA' },
-  { key: 'JP', display_name: 'Japan' },
-  { key: 'EU', display_name: 'Eurozone' }
+  { key: '720B', display_name: 'SEL720B' },
+  { key: '720W', display_name: 'SEL720W' },
+  { key: '730B', display_name: 'SEL730B' },
+  { key: '730W', display_name: 'SEL730W' }
 ]
 
 // arr to obj, such as { CN : "China", US : "USA" }

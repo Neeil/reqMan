@@ -16,6 +16,14 @@ import '@/styles/index.scss' // global css
 
 import './icons' // icon
 
+// import './permission' 
+
+import { mockXHR } from '../../mock'
+
+if(process.env.NODE_ENV === 'production'){
+  mockXHR()
+}
+
 
 
 if (!process.env.IS_WEB) Vue.use(require('vue-electron'))
