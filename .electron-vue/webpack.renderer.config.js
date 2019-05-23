@@ -128,6 +128,7 @@ let rendererConfig = {
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: path.resolve(__dirname, '../src/index.ejs'),
+      chunksSortMode : 'none',
       minify: {
         collapseWhitespace: true,
         removeAttributeQuotes: true,
